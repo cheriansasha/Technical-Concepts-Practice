@@ -1,2 +1,2 @@
 # Technical-Concepts-Practice
-Looking into different technical concepts in practice with code examples.
+Looking into different technical programming concepts with code examples in Python.
