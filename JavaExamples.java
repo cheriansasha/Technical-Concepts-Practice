@@ -18,6 +18,8 @@ public class JavaExamples {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 
+        System.out.println("-----------------------");
+
         // Create an ArrayList of Strings
         List<String> fruits = new ArrayList<>();
         fruits.add("Apple");
@@ -44,7 +46,7 @@ class ListDS {
         String item = arrList.get(0);   // get by index
         System.out.println("arrList at index 0: " + item);
         System.out.println("arrList: " + arrList);
-        System.out.println("--------------");
+        System.out.println("-----------------------");
 
         // LinkedList - front/back-centric
         LinkedList<String> linkedList = new LinkedList<>();
