@@ -3,17 +3,22 @@ import java.util.*;
 // example - iterate through HashMap in java using for each loop
 public class JavaExamples {
     public static void main(String[] args) {
-        System.out.println("Running HashMapIteration!");
+        System.out.println("Running JavaExamples!");
 
         HashMap<String, Integer> map = new HashMap<>();
         map.put("a", 1);
         map.put("b", 2);
         map.put("c", 3);
         
-        //entrySet method is used get both key and values in a HashMap
+        // Update value for key "b" by adding 1
+        map.put("b", map.get("b") + 1);
+        
+        // the entrySet() method is used get both key and values in a HashMap
         for(var entry : map.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
+
+
     }
 }
 
