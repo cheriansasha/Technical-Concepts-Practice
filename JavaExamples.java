@@ -18,7 +18,17 @@ public class JavaExamples {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 
+        // Create an ArrayList of Strings
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Orange");
 
+        // Use a for-each loop to iterate and print each fruit
+        System.out.println("Fruits in the list:");
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
     }
 }
 
